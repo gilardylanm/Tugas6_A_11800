@@ -6,7 +6,7 @@ from PIL import Image
 
 # Load the pre-trained model
 # Sesuaikan dengan path model Anda (model terbaik yang di dump dalam format .h5)
-model = load_model(r'C:\Users\ROG STRIX\Documents\000000000000000 MESIN\Tugas6_A_11800\model_mobilenet.h5')
+model = r'model_mobilenet.h5'
 class_names = ['Matang', 'Mentah']
 
 # Function to preprocess and classify image
